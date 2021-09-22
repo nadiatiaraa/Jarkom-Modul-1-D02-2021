@@ -12,7 +12,7 @@ Sebutkan webserver yang digunakan pada "ichimarumaru.tech"! \
 
 Pada soal ini, Webserver dapat dilihat dengan menggunakan display filter ```http.host == ichimarimaru.tech```, lalu ``klik kanan -> follow -> HTTP Stream``, lalu akan muncul windows seperti di bawah. Dan terlihat bahwa webserver yang digunakan ialah ``nginx/1.18.0 (Ubuntu).``
  
-<img width="794" alt="Screen Shot 2021-09-22 at 09 29 29" src="https://user-images.githubusercontent.com/72669398/134274048-480b1bde-5df4-4d33-b752-d423a54a2b9b.png"
+<img width="794" alt="Screen Shot 2021-09-22 at 09 29 29" src="https://user-images.githubusercontent.com/72669398/134274048-480b1bde-5df4-4d33-b752-d423a54a2b9b.png">
 
 # Soal No. 2
 Temukan paket dari web-web yang menggunakan basic authentication method! \
