@@ -2,7 +2,7 @@
 
 # Praktikum 1 Jarkom
 
-**Nama Anggota Kelompok D2 :** \
+**Nama Anggota Kelompok D2 :** 
 - Sabrina Lydia Simanjuntak (05111940000107)
 - Zulfayanti Sofia Solichin (05111940000189)
 - Nadia Tiara Febriana (05111940000217)
