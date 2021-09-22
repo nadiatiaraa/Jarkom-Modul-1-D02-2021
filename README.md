@@ -8,21 +8,21 @@
 - Nadia Tiara Febriana (05111940000217)
 
 # Soal No. 1
-Sebutkan webserver yang digunakan pada "ichimarumaru.tech"! \
+Sebutkan webserver yang digunakan pada "ichimarumaru.tech"! 
 
 Pada soal ini, Webserver dapat dilihat dengan menggunakan display filter ```http.host == ichimarimaru.tech```, lalu ``klik kanan -> follow -> HTTP Stream``, lalu akan muncul windows seperti di bawah. Dan terlihat bahwa webserver yang digunakan ialah ``nginx/1.18.0 (Ubuntu).``
  
 <img width="794" alt="Screen Shot 2021-09-22 at 09 29 29" src="https://user-images.githubusercontent.com/72669398/134274048-480b1bde-5df4-4d33-b752-d423a54a2b9b.png">
 
 # Soal No. 2
-Temukan paket dari web-web yang menggunakan basic authentication method! \
+Temukan paket dari web-web yang menggunakan basic authentication method! 
 
 Untuk menemukan paket web yang menggunakan basic authentication method yaitu dengan menggunakan display filter ``http.authbasic`` .
 
 <img width="714" alt="Screen Shot 2021-09-22 at 09 29 45" src="https://user-images.githubusercontent.com/72669398/134274070-d3f50a78-6165-4fc3-a6f9-0dc22bdeabdc.png">
 
 # Soal No. 3
-Ikuti perintah di basic.ichimarumaru.tech! Username dan password bisa didapatkan dari file .pcapng! \
+Ikuti perintah di basic.ichimarumaru.tech! Username dan password bisa didapatkan dari file .pcapng! 
 
 Pada soal no 3 ini, hal yang dilakukan yaitu menggunakan display filter ``http.host == basic.ichimarumaru.tech && http.authbasic`` untuk melakukan filter wibsite dari ``basic.ichimarumaru.tech`` dan juga menggunakan filter tambahan berupa ``http.authbasic``.
 Di bagian credentials dari packet pertama, diperoleh username dan password sebagai berikut (di credentials) :
@@ -34,14 +34,14 @@ Kemudian, dapat Login ke ``basic.ichimarumaru.tech`` dengan menggunakan username
 <img width="796" alt="Screen Shot 2021-09-22 at 09 31 00" src="https://user-images.githubusercontent.com/72669398/134274201-e26975cc-74a0-4bb4-8213-46a88ccd30e9.png">
 
 # Soal No. 4
-Temukan paket mysql yang mengandung perintah query select!\
+Temukan paket mysql yang mengandung perintah query select!
 
 Pada soal ini, hal yang dilakukan yaitu dengan menggunakan display filter ``mySQL``, kemudian save as file mySQL yang ditemukan dan dibuka, sehingga diperoleh sebagi berikut:
 
 <img width="700" alt="Screen Shot 2021-09-22 at 09 31 47" src="https://user-images.githubusercontent.com/72669398/134274222-3982f87f-7900-4ea7-8c1a-f194014bef4a.png">
 
 # Soal No. 5
-Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap! \
+Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap! 
 
 Berdasarkan soal no 4 sebelumnya, setelah menemukan file mySQL tersebut, maka diperoleh ``username : akakanomi`` dan ``password : pemisahl4autan`` seperti gambar di bawah ini:
 
