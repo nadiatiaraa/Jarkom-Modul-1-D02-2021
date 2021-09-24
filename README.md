@@ -54,25 +54,25 @@ Kemudian, dapat melakukan login ke ``portal.ichimarumaru.tech`` dengan menggunak
 # Soal No. 6
 Cari username dan password ketika melakukan login ke FTP Server!
 Jawaban :
-Dengan menggunakan display filter  ftp.request.command == USER or ftp.request.command == PASS
+Dengan menggunakan display filter  ``ftp.request.command == USER or ftp.request.command == PASS``
 ![image](https://user-images.githubusercontent.com/83162422/134706096-265e48d0-2b21-49b8-b3f3-050d400ae4d9.png)
 
 # Soal No. 7
 Ada 500 file zip yang disimpan ke FTP Server dengan nama 0.zip, 1.zip, 2.zip, ..., 499.zip. Simpan dan Buka file pdf tersebut. (Hint = nama pdf-nya "Real.pdf")
 Jawaban :
-Dengan menggunakan display filter  ftp-data and frame contains "Real.pdf"
+Dengan menggunakan display filter  ``ftp-data`` and frame contains "Real.pdf"
 ![image](https://user-images.githubusercontent.com/83162422/134706145-7497f8bb-87b1-4037-81c8-f116ab04d2d5.png)
 
 # Soal No. 8
 Cari paket yang menunjukan pengambilan file dari FTP tersebut!
 Jawaban :
-Dengan menggunakan display filter  ftp contains “RETR”
+Dengan menggunakan display filter  ``ftp contains “RETR”``
 ![image](https://user-images.githubusercontent.com/83162422/134706200-3974f8da-9e05-49c5-ab9d-313feb215b08.png)
 
 # Soal No. 9
 Dari paket-paket yang menuju FTP terdapat indikasi penyimpanan beberapa file. Salah satunya adalah sebuah file berisi data rahasia dengan nama "secret.zip". Simpan dan buka file tersebut!
 Jawaban :
-Dengan menggunakan display filter  ftp-data, lalu search (Ctrl+F) dan ketik “secret.zip” dengan pencarian string, lalu save as dan dibuka.
+Dengan menggunakan display filter  ``ftp-data``, lalu search (Ctrl+F) dan ketik “secret.zip” dengan pencarian string, lalu save as dan dibuka.
 ![image](https://user-images.githubusercontent.com/83162422/134706279-d0c0b180-c44a-4d4c-8c00-0160907e7b30.png)
 
 File berisi file lain yaitu Wanted.pdf yang terkunci.
@@ -81,7 +81,7 @@ File berisi file lain yaitu Wanted.pdf yang terkunci.
 # Soal No. 10
 Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server tersebut! Gunakan isi dari "history.txt" untuk menemukan password untuk membuka file rahasia yang ada di "secret.zip"!
 Jawaban :
-Dengan menggunakan display filter  ftp-data, lalu search (Ctrl+F) dan ketik “history.txt” dengan pencarian string, lalu save as dan dibuka. history.txt berisi :
+Dengan menggunakan display filter  ``ftp-data``, lalu search (Ctrl+F) dan ketik “history.txt” dengan pencarian string, lalu save as dan dibuka. history.txt berisi :
 ![image](https://user-images.githubusercontent.com/83162422/134706406-2924e6a6-b16e-4012-9a03-2a8fd54e9945.png)
 
 ditemukan pada file tersebut bahwa key ada pada bukanapaapa.txt, lakukan hal yang sama pada bukanapaapa.txt (namun tidak perlu di save as), ditemukan password sebagai berikut :
