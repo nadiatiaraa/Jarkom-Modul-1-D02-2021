@@ -70,3 +70,6 @@ Kemudian, dapat melakukan login ke ``portal.ichimarumaru.tech`` dengan menggunak
 # Soal No. 14
 
 # Soal No. 15
+
+# Kendala Pengerjaan
+
