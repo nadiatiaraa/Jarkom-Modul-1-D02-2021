@@ -31,12 +31,15 @@ Di bagian credentials dari packet pertama, diperoleh username dan password sebag
 
 Kemudian, dapat Login ke ``basic.ichimarumaru.tech`` dengan menggunakan username dan password pada gambar di atas, dan diperoleh:
 
-<img width="796" alt="Screen Shot 2021-09-22 at 09 31 00" src="https://user-images.githubusercontent.com/72669398/134274201-e26975cc-74a0-4bb4-8213-46a88ccd30e9.png">
+<img width="796" src="https://github.com/nadiatiaraa/Jarkom-Modul-1-D02-2021/blob/main/Screenshot%20Hasil/3.2.png">
 
 # Soal No. 4
 Temukan paket mysql yang mengandung perintah query select!
 
-Pada soal ini, hal yang dilakukan yaitu dengan menggunakan display filter ``mySQL``, kemudian save as file mySQL yang ditemukan dan dibuka, sehingga diperoleh sebagi berikut:
+Pada soal ini, hal yang dilakukan yaitu dengan menggunakan display filter ``mysql.query and frame matches "select"``, kemudian akan terdapat beberapa file mySQL yang ditemukan
+
+<img width="796" src="https://github.com/nadiatiaraa/Jarkom-Modul-1-D02-2021/blob/main/Screenshot%20Hasil/4.1.png">
+Lalu jika dibuka, akan diperoleh sebagi berikut:
 
 <img width="700" alt="Screen Shot 2021-09-22 at 09 31 47" src="https://user-images.githubusercontent.com/72669398/134274222-3982f87f-7900-4ea7-8c1a-f194014bef4a.png">
 
