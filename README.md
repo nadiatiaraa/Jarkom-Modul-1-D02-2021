@@ -76,6 +76,7 @@ Dengan menggunakan display filter  ``ftp contains “RETR”``
 Dari paket-paket yang menuju FTP terdapat indikasi penyimpanan beberapa file. Salah satunya adalah sebuah file berisi data rahasia dengan nama "secret.zip". Simpan dan buka file tersebut!<br>
 Jawaban :<br>
 Dengan menggunakan display filter  ``ftp-data``, lalu search (Ctrl+F) dan ketik “secret.zip” dengan pencarian string, lalu save as dan dibuka.
+Dengan menggunakan display filter  ``ftp-data.command contains "secret.zip"``, lalu klik kanan >> follow >> TCP Stream >> Show data as raw >> Save as.
 
 ![image](https://user-images.githubusercontent.com/83162422/134706279-d0c0b180-c44a-4d4c-8c00-0160907e7b30.png)
 
@@ -86,11 +87,11 @@ File berisi file lain yaitu Wanted.pdf yang terkunci.
 # Soal No. 10
 Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server tersebut! Gunakan isi dari "history.txt" untuk menemukan password untuk membuka file rahasia yang ada di "secret.zip"!<br>
 Jawaban :<br>
-Dengan menggunakan display filter  ``ftp-data``, lalu search (Ctrl+F) dan ketik “history.txt” dengan pencarian string, lalu save as dan dibuka. history.txt berisi :
+Dengan menggunakan display filter  ``ftp-data.command contains "history.txt"``, lalu klik kanan >> follow >> TCP Stream.
 
-![image](https://user-images.githubusercontent.com/83162422/134706406-2924e6a6-b16e-4012-9a03-2a8fd54e9945.png)
+![image](https://user-images.githubusercontent.com/83162422/134759878-118956ae-2c2e-420a-9c53-71a65cfa2fd9.png)
 
-ditemukan pada file tersebut bahwa key ada pada bukanapaapa.txt, lakukan hal yang sama pada bukanapaapa.txt (namun tidak perlu di save as), ditemukan password sebagai berikut :
+ditemukan bahwa key ada pada bukanapaapa.txt, lakukan hal yang sama pada bukanapaapa.txt, ditemukan password sebagai berikut :
 
 ![image](https://user-images.githubusercontent.com/83162422/134706455-f3ac1feb-9285-42da-82ea-200f62d8066b.png)
 
