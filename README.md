@@ -90,7 +90,7 @@ Dengan menggunakan display filter  ``ftp-data.command contains "history.txt"``, 
 
 ![image](https://user-images.githubusercontent.com/83162422/134759878-118956ae-2c2e-420a-9c53-71a65cfa2fd9.png)
 
-ditemukan bahwa key ada pada bukanapaapa.txt, lakukan hal yang sama pada bukanapaapa.txt, ditemukan password sebagai berikut :
+ditemukan bahwa key ada pada bukanapaapa.txt, lakukan hal yang sama pada bukanapaapa.txt, menggunakan display filter  ``ftp-data.command contains "bukanapaapa.txt"``, ditemukan password sebagai berikut :
 
 ![image](https://user-images.githubusercontent.com/83162422/134706455-f3ac1feb-9285-42da-82ea-200f62d8066b.png)
 
