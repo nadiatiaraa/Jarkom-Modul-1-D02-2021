@@ -117,8 +117,8 @@ Karena yang diminta menampilkan paket yang hanya mengandung port 21, maka melaku
 ![image](https://github.com/nadiatiaraa/Jarkom-Modul-1-D02-2021/blob/main/Screenshot%20Hasil/soal%2012.1.png)
 ![image](https://github.com/nadiatiaraa/Jarkom-Modul-1-D02-2021/blob/main/Screenshot%20Hasil/soal%2012.2.png)
 
-**Revisi No 12**
-
+# Revisi No 12
+Berdasarkan hasil yang ditampilkan di atas ``port 21`` saat dibuka kosong, maka untuk mengetes dilakukan tes menggunakan ftp://ftp.adobe.com pada browser. Kemudian terdapat perintah untuk masuk seperti berikut :
 
 # Soal No. 13
 Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!<br>
