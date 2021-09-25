@@ -158,4 +158,6 @@ Karena diminta untuk menggunakan ip kami, maka kami harus mencari terlebih dahul
 ![image](https://github.com/nadiatiaraa/Jarkom-Modul-1-D02-2021/blob/main/Screenshot%20Hasil/soal%2015.2.png)
 
 # Kendala Pengerjaan
+- Jaringan internet lambat dan tidak mendukung
+- Saat mecoba filter beberapa kali tidak menampilkan hasil.
 
