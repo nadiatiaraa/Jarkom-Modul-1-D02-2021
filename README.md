@@ -61,7 +61,7 @@ Dengan menggunakan display filter  ``ftp.request.command == USER or ftp.request.
 # Soal No. 7
 Ada 500 file zip yang disimpan ke FTP Server dengan nama 0.zip, 1.zip, 2.zip, ..., 499.zip. Simpan dan Buka file pdf tersebut. (Hint = nama pdf-nya "Real.pdf")<br>
 Jawaban :<br>
-Dengan menggunakan display filter  ``ftp-data`` and frame contains "Real.pdf"
+Dengan menggunakan display filter  ``ftp-data and frame contains "Real.pdf"`` diperoleh :
 
 ![image](https://user-images.githubusercontent.com/83162422/134706145-7497f8bb-87b1-4037-81c8-f116ab04d2d5.png)
 
@@ -75,7 +75,6 @@ Dengan menggunakan display filter  ``ftp contains “RETR”``
 # Soal No. 9
 Dari paket-paket yang menuju FTP terdapat indikasi penyimpanan beberapa file. Salah satunya adalah sebuah file berisi data rahasia dengan nama "secret.zip". Simpan dan buka file tersebut!<br>
 Jawaban :<br>
-Dengan menggunakan display filter  ``ftp-data``, lalu search (Ctrl+F) dan ketik “secret.zip” dengan pencarian string, lalu save as dan dibuka.
 Dengan menggunakan display filter  ``ftp-data.command contains "secret.zip"``, lalu klik kanan >> follow >> TCP Stream >> Show data as raw >> Save as.
 
 ![image](https://user-images.githubusercontent.com/83162422/134706279-d0c0b180-c44a-4d4c-8c00-0160907e7b30.png)
