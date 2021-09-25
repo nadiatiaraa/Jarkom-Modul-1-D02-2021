@@ -123,12 +123,15 @@ Karena yang diminta menampilkan paket yang hanya mengandung port 21, maka melaku
 
 # Revisi No. 12
 Berdasarkan hasil yang ditampilkan di atas ``port 21`` saat dibuka kosong, maka untuk mengetes dilakukan tes menggunakan ftp://ftp.adobe.com pada browser. Kemudian terdapat perintah untuk masuk seperti berikut :
+
 <img width="437" alt="Screen Shot 2021-09-25 at 16 45 12" src="https://user-images.githubusercontent.com/72669398/134767071-a2e12bb4-c2d8-4f87-be1b-662d6fcc8868.png">
 
 Kemudian, terdapat folder ftp.adobe.com seperti dibawah ini :
+
 <img width="1440" alt="Screen Shot 2021-09-25 at 16 41 34" src="https://user-images.githubusercontent.com/72669398/134767077-9e805cdd-7675-4782-8c86-d00c2877141c.png">
 
 Lalu, menghasilkan sebagai berikut :
+
 <img width="1440" alt="Screen Shot 2021-09-25 at 16 41 08" src="https://user-images.githubusercontent.com/72669398/134767078-5931a8cc-558f-4b46-8617-68bf64a5bb78.png">
 
 # Soal No. 13
