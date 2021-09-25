@@ -109,6 +109,10 @@ Karena yang diminta menampilkan paket yang hanya berasal dari port 80, maka mela
 ![image](https://github.com/nadiatiaraa/Jarkom-Modul-1-D02-2021/blob/main/Screenshot%20Hasil/soal%2011.1.png)
 ![image](https://github.com/nadiatiaraa/Jarkom-Modul-1-D02-2021/blob/main/Screenshot%20Hasil/soal%2011.2.png)
 
+# Revisi No. 11
+Berdasarkan hasil sebelumnya dimana ```src port 80``` kosong, ketika dicoba mengakses web ```http://monta.if.its.ac.id/``` menghasilkan sebagai berikut :
+<img width="1440" alt="Screen Shot 2021-09-25 at 17 32 37" src="https://user-images.githubusercontent.com/72669398/134768394-597bddb4-5e65-4b3d-832a-49ea2052eeb4.png">
+
 # Soal No. 12
 Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!<br>
 
@@ -117,7 +121,7 @@ Karena yang diminta menampilkan paket yang hanya mengandung port 21, maka melaku
 ![image](https://github.com/nadiatiaraa/Jarkom-Modul-1-D02-2021/blob/main/Screenshot%20Hasil/soal%2012.1.png)
 ![image](https://github.com/nadiatiaraa/Jarkom-Modul-1-D02-2021/blob/main/Screenshot%20Hasil/soal%2012.2.png)
 
-# Revisi No 12
+# Revisi No. 12
 Berdasarkan hasil yang ditampilkan di atas ``port 21`` saat dibuka kosong, maka untuk mengetes dilakukan tes menggunakan ftp://ftp.adobe.com pada browser. Kemudian terdapat perintah untuk masuk seperti berikut :
 <img width="437" alt="Screen Shot 2021-09-25 at 16 45 12" src="https://user-images.githubusercontent.com/72669398/134767071-a2e12bb4-c2d8-4f87-be1b-662d6fcc8868.png">
 
